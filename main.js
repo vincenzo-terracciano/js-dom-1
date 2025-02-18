@@ -7,7 +7,7 @@ lightButtonEl.addEventListener("click", function(){
         light.src = "./img/yellow_lamp.png"
         lightButtonEl.innerText = "Spegni"
         isLightOnOff = true;
-    } else if(isLightOnOff == true) {
+    } else {
         light.src = "./img/white_lamp.png"
         lightButtonEl.innerText = "Accendi"
         isLightOnOff = false;
